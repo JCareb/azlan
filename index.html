@@ -187,13 +187,15 @@
 				    $("#one").fadeToggle(2000, "linear");
 					$("#oneandhalf").fadeToggle(3000, "linear");
 					$("#trailer1").get(0).play();
-					$("#oneandhalf").delay(14000).fadeToggle(3000, "linear");
-					$("#one").fadeToggle(2000, "linear");
 				  });
 				  $("#clickMeTwo").click(function() {
 				    $("#two").fadeToggle(2000, "linear");
 					$("#twoandhalf").fadeToggle(3000, "linear");
 					$("#trailer2").get(0).play();
+				  });
+				  $("#trailer1").get(0).click(function() {
+				    $("#oneandhalf").fadeToggle(2000, "linear");
+				    $("#one").fadeToggle(3000, "linear");
 				  });
 				
 				});
